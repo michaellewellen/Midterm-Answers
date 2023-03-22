@@ -7,15 +7,15 @@ Console.Clear();
 //Given this declaration, write code that will find and display the largest element of 'numbers'
 
     int[] numbers = new int[20]{2904, 4451, 1484, 2791, 3975, 2576, 2444, 448, 749, 4245, 4753, 3483, 2088, 3987, 3127, 1346, 3615, 1758, 1374, 3960};
-    int greatest =0;
-    for (int i = 0; i < numbers.Length; i++)
+    int greatest =numbers[0];
+    for (int i = 1; i < numbers.Length; i++)
     {
         if (numbers[i] > greatest)
             greatest = numbers[i];
     }
     Console.WriteLine($"The greatest number in the list 'numbers' is {greatest}\n");
 
-//Write a program that takes a list of strings an prints them, one per line, in a rectangular frame. 
+//Write a program that takes a list of strings and prints them, one per line, in a rectangular frame. 
     //string? input = Console.ReadLine();
     string input = "The quick brown fox jumps over the lazy dog.";
     string[] words = input.Split(' ');
@@ -50,7 +50,7 @@ Console.Clear();
 // Given lists A and B that are already sorted, create a list C that combines the two lists and keeps them sorted
     int[] A = new int[4] {1,3,9,12};
     int[] B = new int[4] {2,4,11,15};
-    int[] C = new int[8];
+    int[] C = new int[A.Length + B.Length];
     // Option one combine the lists and sort the list
     for (int i = 0; i< A.Length; i++)
         C[i] = A[i];
@@ -115,7 +115,7 @@ Console.WriteLine($"Sum from for = {sumFor}, Sum from while = {sumWhile}\n");
 
 for (int i = 1; i< 1001; i++)
 {
-    if(i%3 == 0 || i%7 == 0)
+    if(i%3 == 0 && i%7 == 0)
         Console.Write($"{i} ");
 }
 Console.WriteLine("\n");

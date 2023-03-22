@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\michael.lewellen\\.nuget\\packages\\": {}
+    "C:\\Users\\micha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\michael.lewellen\\Desktop\\code\\my-code-dir\\midterm\\midterm.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\code\\Midterm-Answers\\midterm.csproj",
       "projectName": "midterm",
-      "projectPath": "C:\\Users\\michael.lewellen\\Desktop\\code\\my-code-dir\\midterm\\midterm.csproj",
-      "packagesPath": "C:\\Users\\michael.lewellen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\michael.lewellen\\Desktop\\code\\my-code-dir\\midterm\\obj\\",
+      "projectPath": "C:\\Users\\micha\\code\\Midterm-Answers\\midterm.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micha\\code\\Midterm-Answers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\michael.lewellen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
